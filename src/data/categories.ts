@@ -1,0 +1,227 @@
+export const categories = [
+  {
+    id: "0b1af0dc-b169-4b15-bddd-a9f866b21b5a",
+    description: {
+      title: "Career",
+      short_description:
+        "Feel comfortable at work and easily achieve your professional goals.",
+    },
+    color_light: "#EEF6FA",
+    color_medium: "#CBE3F0",
+    color_dark: "#52A0CC",
+    color_extra_dark: "#186FA0",
+    color_strong: "#03263A",
+    is_subscribed: true,
+    subcategories: [
+      {
+        id: "0415d4a9-8f36-45f3-a3a9-52a20eeb2a84",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Develop your career",
+          short_description: "",
+        },
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+      {
+        id: "ead6957d-30bd-4688-8d28-6c6d04b9c434",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Manage your career",
+          short_description: "",
+        },
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: false,
+      },
+    ],
+  },
+  {
+    id: "f7085827-2e9e-4388-8ca9-5518b195dc08",
+    description: {
+      title: "Relationships",
+      short_description:
+        "Build rewarding relationships and support your loved ones.",
+    },
+    color_light: "#FCF7EA",
+    color_medium: "#F7E7C1",
+    color_dark: "#E5B031",
+    color_extra_dark: "#B78100",
+    color_strong: "#5B4001",
+    is_subscribed: true,
+    subcategories: [
+      {
+        id: "cdd83f1e-e5f3-41e5-9eda-58fb90b2f488",
+        parent_id: "f7085827-2e9e-4388-8ca9-5518b195dc08",
+        description: {
+          title: "Relationships with your partner",
+          short_description:
+            "Discover how you can build fulfilling relationships with your loved ones and how you can support them on a daily basis – your partner, children, family or friends.",
+        },
+        color_light: "#FCF7EA",
+        color_medium: "#F7E7C1",
+        color_dark: "#E5B031",
+        color_extra_dark: "#B78100",
+        color_strong: "#5B4001",
+        is_subscribed: false,
+      },
+    ],
+  },
+  {
+    id: "8eafb939-0671-4d1c-9565-212f1e7b0454",
+    description: {
+      title: "Finance",
+      short_description: "Ensure your financial security.",
+    },
+    color_light: "#EEF2FA",
+    color_medium: "#CBD7F0",
+    color_dark: "#527BCC",
+    color_extra_dark: "#1845A0",
+    color_strong: "#03153A",
+    is_subscribed: false,
+    subcategories: [
+      {
+        id: "0415d4a9-8f36-45f3-a3a9-52a20eeb2a84",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Household budget management",
+          short_description: "",
+        },
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+      {
+        id: "ead6957d-30bd-4688-8d28-6c6d04b9c434",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Financial security",
+          short_description: "",
+        },
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+      {
+        id: "a35263d4-c459-4c0f-9b36-7893b8323e6d",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Saving",
+          short_description: null,
+        },
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: false,
+      },
+    ],
+  },
+  {
+    id: "f73881b2-2314-43dc-8fcb-08e1aec79cfa",
+    description: {
+      title: "Live healthily",
+      short_description:
+        "Take care of the basics of well-being: sleep, exercise and diet.",
+    },
+    color_light: "#E7F3EF",
+    color_medium: "#B7DACE",
+    color_dark: "#0E855C",
+    color_extra_dark: "#066B48",
+    color_strong: "#033A27",
+    is_subscribed: false,
+    subcategories: [
+      {
+        id: "a93c79e2-b652-4a89-989e-88141ad60d41",
+        parent_id: "f73881b2-2314-43dc-8fcb-08e1aec79cfa",
+        description: {
+          title: "Healthy diet",
+          short_description: "Take care of your wellbeing with a healthy diet",
+        },
+        color_light: "#E7F3EF",
+        color_medium: "#B7DACE",
+        color_dark: "#0E855C",
+        color_extra_dark: "#066B48",
+        color_strong: "#033A27",
+        is_subscribed: true,
+      },
+    ],
+  },
+  {
+    id: "dae37192-10da-415d-a225-eb798c1e1afa",
+    description: {
+      title: "Manage stress",
+      short_description: "Get rid of unpleasant tension and enjoy life again.",
+    },
+    color_light: "#FBF4F8",
+    color_medium: "#F2DFEB",
+    color_dark: "#D394BB",
+    color_extra_dark: "#A52775",
+    color_strong: "#49032F",
+    is_subscribed: false,
+    subcategories: [
+      {
+        id: "0415d4a9-8f36-45f3-a3a9-52a20eeb2a84",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Mental disorders",
+          short_description: "Give your mind a break from the daily rush.",
+        },
+        image:
+          "https://dev-mindgram-app.s3.amazonaws.com/mindgram/content_theme/image/0415d4a9-8f36-45f3-a3a9-52a20eeb2a84.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3LGJVK5RAA27WQ45%2F20250918%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250918T103037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEIaDGV1LWNlbnRyYWwtMSJGMEQCIDIcEp72fB3ueYtI74DXKuHsPS1gULMQWgaaYzSvBX6wAiBvmuyY6BzxmHpSlHnH%2B5CCRdQRht9Z550WBo7e9xtzSCqTBQi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc3OTk1OTQ5MDQwMiIMTOPnjtnTELzsJX6rKucEfjltzQ1xm5l%2BU0uPu7m8CcM2BvrYLQJjk3HcTqFBJ42tPmNGPR2eDyXrtsAxneWBxNt48jNWEHOF0hPf2%2FZ8KElyDYwBTdc%2FupVWjj6Zg9BiM6IbHzYU5iv4PIkqXA2aq0NMhViVKx0ktIECNE6ZOqR%2FIyJwFdnHFcEq%2BdnGJSEF2Au%2BaMFBFwqb00Ixf2S1Bg9RqJ1xdbyqxxPsQA0%2BRWDwn4xTQWIM3ADKjupAI4GzwPDDTZkYRirq1sXdSupHKmJ0eeu5W%2BZp3BEeqIVDWN5t1GjWnm7HmhOBPJwlzNIuEGUKx%2BJudFK5KoVMs4gMR2E0Nar2tz98jBlAZNMQiq51Tp64kJdHIb%2FwqhqExC9ORmwoI%2B0bvoM8HBBh5LQGiP3zKECnyBykhMVKXHL2dGAKhcF6zNT3ZGAAfdPAJ9KFyxvyFPSAPfVuWUMLh90JDbXWNE7PfLv%2F%2FBt8ihbb%2BXZ%2FA9wRjRO0v%2F7Kl6fWF5AucUi9gjktiGTW8YElmEuztV0TAQlewnSEj7pvEV%2BlUjbcvePlLRg%2B00GAw6BLsl9P0xL1X0Q1icmmRhtHFBvJA03bozDzcScV9qUUD8c3RlPN4UnTeP7Uypu0QKgEI5BYCE%2B0UZXg%2BshWL0zdvEVic5Km%2FUgV1NGYRsqsdVsYq5orP7wgfTJWC9Rof9w5LqGX2LB%2BmDKqBxEe8NPoDRdDYoXEEoOOFmMVS6bBI6SRET6K4IUqspvdToIussTpJInqked4xINzurTBiEw7CRQyz43Q3XAQB6ktUTnWgvp5rAK9QtMLfEhIWJsejYt72h8OrwLltIuEMNyqr8YGOpsBYcR7GLp7w4n3hYFNMrKpMwngbgTMcrQ7k515Pp4KF5e05XMplG8ypkULonDq4yWVwBJFYS7mLkkR5dfBhlD1EcgUQs1FEaxIdAmwjHpHk%2FIwLr9sW5AIYSsA%2BO4pPMGKGaPPl1XZRRPdGGf6kOJLYXrcI2xdX5ZAWBSouQQ8Bjng5Vu13TleSIoL%2FIBJ6br49vMPO872q8GGyNc%3D&X-Amz-Signature=5147a8fc04009db431bc2bf31f87a9ca8aeea0af98c694e6055f5c58f443d2f9",
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+      {
+        id: "ead6957d-30bd-4688-8d28-6c6d04b9c434",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Depression",
+          short_description: "Give your mind a break from the daily rush.",
+        },
+        image:
+          "https://dev-mindgram-app.s3.amazonaws.com/mindgram/content_theme/image/ead6957d-30bd-4688-8d28-6c6d04b9c434.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3LGJVK5RAA27WQ45%2F20250918%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250918T103037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEIaDGV1LWNlbnRyYWwtMSJGMEQCIDIcEp72fB3ueYtI74DXKuHsPS1gULMQWgaaYzSvBX6wAiBvmuyY6BzxmHpSlHnH%2B5CCRdQRht9Z550WBo7e9xtzSCqTBQi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc3OTk1OTQ5MDQwMiIMTOPnjtnTELzsJX6rKucEfjltzQ1xm5l%2BU0uPu7m8CcM2BvrYLQJjk3HcTqFBJ42tPmNGPR2eDyXrtsAxneWBxNt48jNWEHOF0hPf2%2FZ8KElyDYwBTdc%2FupVWjj6Zg9BiM6IbHzYU5iv4PIkqXA2aq0NMhViVKx0ktIECNE6ZOqR%2FIyJwFdnHFcEq%2BdnGJSEF2Au%2BaMFBFwqb00Ixf2S1Bg9RqJ1xdbyqxxPsQA0%2BRWDwn4xTQWIM3ADKjupAI4GzwPDDTZkYRirq1sXdSupHKmJ0eeu5W%2BZp3BEeqIVDWN5t1GjWnm7HmhOBPJwlzNIuEGUKx%2BJudFK5KoVMs4gMR2E0Nar2tz98jBlAZNMQiq51Tp64kJdHIb%2FwqhqExC9ORmwoI%2B0bvoM8HBBh5LQGiP3zKECnyBykhMVKXHL2dGAKhcF6zNT3ZGAAfdPAJ9KFyxvyFPSAPfVuWUMLh90JDbXWNE7PfLv%2F%2FBt8ihbb%2BXZ%2FA9wRjRO0v%2F7Kl6fWF5AucUi9gjktiGTW8YElmEuztV0TAQlewnSEj7pvEV%2BlUjbcvePlLRg%2B00GAw6BLsl9P0xL1X0Q1icmmRhtHFBvJA03bozDzcScV9qUUD8c3RlPN4UnTeP7Uypu0QKgEI5BYCE%2B0UZXg%2BshWL0zdvEVic5Km%2FUgV1NGYRsqsdVsYq5orP7wgfTJWC9Rof9w5LqGX2LB%2BmDKqBxEe8NPoDRdDYoXEEoOOFmMVS6bBI6SRET6K4IUqspvdToIussTpJInqked4xINzurTBiEw7CRQyz43Q3XAQB6ktUTnWgvp5rAK9QtMLfEhIWJsejYt72h8OrwLltIuEMNyqr8YGOpsBYcR7GLp7w4n3hYFNMrKpMwngbgTMcrQ7k515Pp4KF5e05XMplG8ypkULonDq4yWVwBJFYS7mLkkR5dfBhlD1EcgUQs1FEaxIdAmwjHpHk%2FIwLr9sW5AIYSsA%2BO4pPMGKGaPPl1XZRRPdGGf6kOJLYXrcI2xdX5ZAWBSouQQ8Bjng5Vu13TleSIoL%2FIBJ6br49vMPO872q8GGyNc%3D&X-Amz-Signature=1b2968c271e5ab39bd35159e460516ee4572f3a097996b4d4611c388eda916c8",
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+      {
+        id: "a35263d4-c459-4c0f-9b36-7893b8323e6d",
+        parent_id: "dae37192-10da-415d-a225-eb798c1e1afa",
+        description: {
+          title: "Coping with anxiety",
+          short_description: null,
+        },
+        image:
+          "https://dev-mindgram-app.s3.amazonaws.com/mindgram/content_theme/image/a35263d4-c459-4c0f-9b36-7893b8323e6d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA3LGJVK5RAA27WQ45%2F20250918%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250918T103037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEIaDGV1LWNlbnRyYWwtMSJGMEQCIDIcEp72fB3ueYtI74DXKuHsPS1gULMQWgaaYzSvBX6wAiBvmuyY6BzxmHpSlHnH%2B5CCRdQRht9Z550WBo7e9xtzSCqTBQi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDc3OTk1OTQ5MDQwMiIMTOPnjtnTELzsJX6rKucEfjltzQ1xm5l%2BU0uPu7m8CcM2BvrYLQJjk3HcTqFBJ42tPmNGPR2eDyXrtsAxneWBxNt48jNWEHOF0hPf2%2FZ8KElyDYwBTdc%2FupVWjj6Zg9BiM6IbHzYU5iv4PIkqXA2aq0NMhViVKx0ktIECNE6ZOqR%2FIyJwFdnHFcEq%2BdnGJSEF2Au%2BaMFBFwqb00Ixf2S1Bg9RqJ1xdbyqxxPsQA0%2BRWDwn4xTQWIM3ADKjupAI4GzwPDDTZkYRirq1sXdSupHKmJ0eeu5W%2BZp3BEeqIVDWN5t1GjWnm7HmhOBPJwlzNIuEGUKx%2BJudFK5KoVMs4gMR2E0Nar2tz98jBlAZNMQiq51Tp64kJdHIb%2FwqhqExC9ORmwoI%2B0bvoM8HBBh5LQGiP3zKECnyBykhMVKXHL2dGAKhcF6zNT3ZGAAfdPAJ9KFyxvyFPSAPfVuWUMLh90JDbXWNE7PfLv%2F%2FBt8ihbb%2BXZ%2FA9wRjRO0v%2F7Kl6fWF5AucUi9gjktiGTW8YElmEuztV0TAQlewnSEj7pvEV%2BlUjbcvePlLRg%2B00GAw6BLsl9P0xL1X0Q1icmmRhtHFBvJA03bozDzcScV9qUUD8c3RlPN4UnTeP7Uypu0QKgEI5BYCE%2B0UZXg%2BshWL0zdvEVic5Km%2FUgV1NGYRsqsdVsYq5orP7wgfTJWC9Rof9w5LqGX2LB%2BmDKqBxEe8NPoDRdDYoXEEoOOFmMVS6bBI6SRET6K4IUqspvdToIussTpJInqked4xINzurTBiEw7CRQyz43Q3XAQB6ktUTnWgvp5rAK9QtMLfEhIWJsejYt72h8OrwLltIuEMNyqr8YGOpsBYcR7GLp7w4n3hYFNMrKpMwngbgTMcrQ7k515Pp4KF5e05XMplG8ypkULonDq4yWVwBJFYS7mLkkR5dfBhlD1EcgUQs1FEaxIdAmwjHpHk%2FIwLr9sW5AIYSsA%2BO4pPMGKGaPPl1XZRRPdGGf6kOJLYXrcI2xdX5ZAWBSouQQ8Bjng5Vu13TleSIoL%2FIBJ6br49vMPO872q8GGyNc%3D&X-Amz-Signature=b45f867c429fbfd952bef7858067d32933c5e6b6191fec934fc291b0d3d7c5dc",
+        color_light: "#FBF4F8",
+        color_medium: "#F2DFEB",
+        color_dark: "#D394BB",
+        color_extra_dark: "#A52775",
+        color_strong: "#49032F",
+        is_subscribed: true,
+      },
+    ],
+  },
+];
